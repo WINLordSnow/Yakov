@@ -11,8 +11,8 @@ public class Main {
 
     for (int i = 1; i <= a; i++)
         arrayNum [i] = i;
-
-    for (int i = 4; i <= a/i; i++)
+//гшеу65
+    for (int i = 2; i <= a/i; i++)
         if (arrayNum [i] != 0) {
             j = i;
             while ((j += i) <= a)
